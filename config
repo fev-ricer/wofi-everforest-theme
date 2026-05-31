@@ -1,0 +1,10 @@
+width=380
+height=450
+mode=drun
+prompt=Запустить
+filter_rate=100
+allow_markup=true
+hide_scroll=true
+insensitive=true
+show_icons=true
+icon_theme=Papirus-Dark

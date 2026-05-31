@@ -1,0 +1,74 @@
+* {
+    font-family: "CaskaydiaCove Nerd Font Mono", "JetBrainsMono Nerd Font", monospace;
+    font-size: 14px;
+}
+
+window {
+    margin: 0px;
+    border: 1px solid #7a8478;
+    border-radius: 16px;
+    background-color: rgba(46, 56, 60, 0.95);
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 10px 30px 0px;
+}
+
+#input {
+    margin: 12px 12px 8px 12px;
+    border: none;
+    border-radius: 12px;
+    background-color: #3c4a4e;
+    color: #d3c6aa;
+    padding: 10px 14px;
+    font-size: 14px;
+}
+
+#input:focus {
+    box-shadow: 0 0 0 2px #a7c080;
+    outline: none;
+}
+
+#inner-box {
+    margin: 0px 8px 8px 8px;
+    background-color: transparent;
+    border-radius: 12px;
+}
+
+#outer-box {
+    margin: 0px;
+    background-color: transparent;
+}
+
+#scroll {
+    margin: 0px;
+    background-color: transparent;
+}
+
+#entry {
+    margin: 4px 0px;
+    padding: 10px 14px;
+    border-radius: 12px;
+    background-color: transparent;
+    color: #d3c6aa;
+}
+
+#entry:selected {
+    background-color: #4f5e62;
+    color: #a7c080;
+}
+
+#entry:selected #text {
+    color: #a7c080;
+}
+
+#text {
+    color: #d3c6aa;
+}
+
+#img {
+    margin-right: 12px;
+}
+
+/* Скрываем скроллбар, если он не нужен */
+scrollbar {
+    background-color: transparent;
+    width: 0px;
+}
