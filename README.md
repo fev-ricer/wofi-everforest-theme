@@ -2,4 +2,4 @@
 ### My everforest theme for wofi.
 To install it, move the config and style.css files to ~/.config/wofi/ dir.
 ### PREVIEW
-Preview is in screen.png, im soooo lazy...
+Preview is not here, like a Tyler Durden.
